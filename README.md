@@ -1,4 +1,4 @@
-# CSV Data Cleansing - EDTS Technical Test Solution
+# CSV Data Cleansing - Technical Test Solution
 
 ## Script Explanation
 
