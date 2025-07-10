@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  music-app:
+    build: .
+    container_name: music_app_container
+    volumes:
+      - ./source:/app/source:ro          # Mount source folder read-only
+      - ./target:/app/target             # Mount target folder read-write (for output)
+    environment:
+      - PYTHONUNBUFFERED=1               # See log instantly
